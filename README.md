@@ -5,8 +5,11 @@ XMeme is a online meme submission platform made during crio.do CWOD 2021 extensh
 
 ### Technologies used:
 Database -> Mongodb
+
 Frontend -> React
+
 Backend  -> node+expressjs
+
 Containers -> Docker
 
 #### screenshots
