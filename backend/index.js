@@ -36,9 +36,7 @@ swaggerApp.use(
 );
 
 // db connection
-mongo_password = process.env.MONGO_PASS;
-database = process.env.DB_NAME;
-const uri = process.env.DATABASE;
+const uri = "mongodb://localhost:27017/memes";
 mongoose
 	.connect(uri, {
 		useNewUrlParser: true,
@@ -60,7 +58,7 @@ app.use(cors()); // to prevent cors errors
 app.use("/", routes);
 
 // MAIN server setup
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8081;
 app.listen(port, () =>
 	console.log(`[INFO] listening on port http://localhost:${port}`)
 );
