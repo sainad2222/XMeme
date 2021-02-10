@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd XMeme/backend
+cd backend
 npm install
 npm start
