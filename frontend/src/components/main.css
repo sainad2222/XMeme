@@ -1,0 +1,31 @@
+.ui.container.form {
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+.image {
+	display: block;
+	margin: 0 auto;
+}
+.centered.row.meme {
+	background-color: #424242;
+}
+.ui.pagination.paginator.menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: violet;
+}
+.ui.form{
+    background-color: #322F3D;
+}
+.ui.header.xmeme{
+    color: red;
+    text-align: center;
+    font-family: Fantasy;
+}
+.active{
+    background-color: #ffcccb !important;
+}
+h2.header{
+    background-color: grey;
+}
