@@ -12,9 +12,6 @@ sudo apt install build-essential -y
 echo "Installing CURL"
 sudo apt install curl -y
 
-# -----------------GIT-----------------
-sudo apt install git-all -y
-
 # ----------------MONGODB---------------
 echo "Installing MONGODB"
 curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
