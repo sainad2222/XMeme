@@ -13,13 +13,6 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 sudo apt install build-essential -y
 
-# -----------------DOCKER-----------------
-echo "Insalling DOCKER"
-curl -fsSL https://get.docker.com -o get-docker.sh
-chmod +x get-docker.sh
-sudo ./get-docker.sh
-sudo usermod -aG docker "$USER"
-
 # ----------------MONGODB---------------
 echo "Installing MONGODB"
 curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
