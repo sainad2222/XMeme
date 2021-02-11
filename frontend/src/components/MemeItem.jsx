@@ -65,7 +65,7 @@ export default class MemeItem extends Component {
 					<List.Content>
 						<List.Header as="h2">{this.props.meme.caption}</List.Header>
 					</List.Content>
-					<Image className="image" src={this.props.meme.url} />
+					<Image className="image" style={{width: '500px', height: 'auto'}} src={this.props.meme.url} />
 					<List.Content>
 						<List.Description>
 							Submitted by{" "}
