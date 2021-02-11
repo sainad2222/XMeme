@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# -----------------CURL-----------------
+echo "Installing CURL"
+sudo apt install curl -y
+
 # -----------------NODE-----------------
 echo "Installing NODE"
 curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
@@ -8,9 +13,12 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 sudo apt install build-essential -y
 
-# -----------------CURL-----------------
-echo "Installing CURL"
-sudo apt install curl -y
+# -----------------DOCKER-----------------
+echo "Insalling DOCKER"
+curl -fsSL https://get.docker.com -o get-docker.sh
+chmod +x get-docker.sh
+sudo ./get-docker.sh
+sudo usermod -aG docker "$USER"
 
 # ----------------MONGODB---------------
 echo "Installing MONGODB"
