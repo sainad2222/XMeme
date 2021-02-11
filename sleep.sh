@@ -1,2 +1,2 @@
 #!/bin/bash
-sleep 5
+sleep 60
