@@ -26,8 +26,16 @@ const memeSchema = Schema(
 			type: Number,
 			default: 0,
 		},
+        id: {
+            type: String,
+        }
 	},
 	{ timestamps: true }
 );
+
+memeSchema.pre('save',function(next){
+    this.id=this._id;
+    next();
+})
 
 module.exports = mongoose.model("Meme", memeSchema);
