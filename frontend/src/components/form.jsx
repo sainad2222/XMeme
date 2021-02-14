@@ -35,7 +35,7 @@ export default class FormField extends Component {
 		this.setState({ captionErr: "" });
 		if (
 			!this.state.url.includes(".jpg") &&
-			!this.state.url.includes("data:image") &&
+			!this.state.url.includes("image") &&
 			!this.state.url.includes(".jpeg") &&
 			!this.state.url.includes(".png")
 		) {
