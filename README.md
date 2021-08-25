@@ -21,7 +21,10 @@ XMeme is a online meme submission platform made during crio.do CWOD 2021 extensh
 ### System Architecture
 ![image](https://user-images.githubusercontent.com/44405294/130667071-acb38f46-ea80-41b8-afbc-a806464271b1.png)
 
-### UML Diagram
+### Use case Diagram
+![image](https://user-images.githubusercontent.com/44405294/130769449-dec8676f-42b1-4e09-85da-2530c2848d24.jpg)
+
+### Class Diagram
 ![image](https://user-images.githubusercontent.com/44405294/130667091-2a3ca926-afd7-4df4-bb72-a014823f4b20.png)
 
 #### screenshots
